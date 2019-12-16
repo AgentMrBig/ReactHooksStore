@@ -1,12 +1,7 @@
-import React from 'react';
+import React, { useContext } from 'react';
 
 const LoginForm = props => {
-  return (
-    <form>
-      <input name="username" placeholder="username" />
-      <input name="password" placeholder="password" />
-    </form>
-  );
+  return <div>{props.title}</div>;
 };
 
 export default LoginForm;
